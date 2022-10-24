@@ -1,0 +1,32 @@
+.input {
+    background-color: rgb(255, 249, 215);
+    padding: 5px 10px;
+    font-family: "Mukta", sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+.input::placeholder {
+    color: rgb(47, 45, 68);
+    font-weight: 700;
+}
+.form {
+    display: flex;
+    justify-content: space-between;
+    /* width: 160px; */
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.button {
+    padding: 5px 20px;
+    color: rgb(47, 45, 68);
+    background-color: rgb(251 221 44);
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    font-family: "Mukta", sans-serif;
+    transition: all 0.5s ease;
+}
+.button:hover {
+    background-color: rgba(251, 220, 44, 0.767);
+    cursor: pointer;
+}
